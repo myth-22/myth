@@ -1,0 +1,92 @@
+body {
+    min-height: 100vh;
+    background: url('../images/bg-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+.register-container {
+    background: rgba(10, 20, 40, 0.65);
+    border-radius: 12px;
+    padding: 2.5rem 2rem 2rem 2rem;
+    max-width: 400px;
+    margin: 3rem auto;
+    position: relative;
+    color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+}
+.ncst-logo {
+    position: absolute;
+    top: -40px;
+    left: -60px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    background: none !important;
+}
+.form-label {
+    color: #fff;
+    font-weight: 500;
+}
+.form-control {
+    border-radius: 1.5rem;
+    padding-left: 2.5rem;
+}
+.input-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-30%);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.input-icon img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: block;
+}
+.sign-in-btn {
+    background: #FFC107;
+    color: #222;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    border: none;
+    width: 100%;
+    margin-top: 1rem;
+}
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.social-login img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.register-header {
+    margin-bottom: 1.5rem;
+}
+.register-header h6 {
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+.register-header h2 {
+    color: #3ec6ff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.register-header small {
+    color: #ccc;
+}
+.register-header a {
+    color: #3ec6ff;
+    text-decoration: none;
+    font-weight: 500;
+} 
